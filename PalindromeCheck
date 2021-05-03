@@ -1,1 +1,27 @@
+def PalindromeCheck(n):
+	return n == n[::-1]
+  
+n = "john"
+ans = PalindromeCheck(n)
+
+if ans:
+	print("True")
+else:
+	print("False")
+    
+n = "hannah"
+ans = PalindromeCheck(n)
+
+if ans:
+	print("True")
+else:
+	print("False")
+	
+n = "kiwik"
+ans = PalindromeCheck(n)
+
+if ans:
+	print("True")
+else:
+	print("False")
 
